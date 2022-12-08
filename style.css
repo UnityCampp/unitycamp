@@ -1,0 +1,265 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e3dcd5;
+}
+
+.header{
+    width: 100%;
+    padding: 15em 0;
+    background-image: url('imgs/webGrande.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.blue{
+    background-color: #0B1726;
+    color: #fff;
+}
+
+.orange{
+    background-color: #F27B50;
+    color: #fff;
+}
+
+.main-1{
+    display: flex;
+    padding: 5em 0;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.main-1 h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.main-1 p{
+    font-size: 24px;
+}
+
+.main-1 div:nth-child(1){
+    max-width: 600px;
+}
+
+.main-2{
+    display: flex;
+    padding: 5em 0;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.main-2 h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: .1em .1em .2em #0B1726 ;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    background-color: #0B1726;
+    width: 300px;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+    transition: .5s;
+}
+
+.button:hover{
+    background-color: #122131;
+}
+
+.main-3{
+    display: flex;
+    padding: 5em 0;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo-3{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.main-3 ul{
+    margin-top: 0;
+    display: inline-block;
+    margin-top: -50px;
+    padding-bottom: 30px;
+}
+
+.titulo{
+    padding: 15px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: left;
+    position: relative;
+    margin-left: -35px;
+}
+
+.titulo-4{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.main-4{
+    display: flex;
+    padding: 5em 0;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.localizacao{
+    padding: 5em 0;
+    text-align: center;
+}
+
+.localizacao h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.localizacao iframe{
+    width: 1000px;
+    height: 300px;
+}
+
+.contato{
+    background-color: #e3dcd5;
+    padding: 5em 0;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contato h3{
+    color: #181a1d;
+    font-size: 32px;
+}
+
+.contato p{
+    color: #1e2329;
+    font-size: 24px;
+}
+
+.contato ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contato i{
+    font-size: 60px;
+    padding-top: 15px;
+}
+
+.contato li:nth-child(1) i{
+    color:  #52e026;
+}
+
+.contato li:nth-child(2) i{
+    color: #dd2a7b;
+}
+
+footer{
+    background-color: #0b0c0e;
+    padding: 2em 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+#img-1{
+    width: 600px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('imgs/FotoTodoAcamp.jpeg');
+    margin-top: 150px;
+}
+#img-2{
+    background-image: url('imgs/JuliaBia.jpeg');
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+#img-3{
+    background-image: url('imgs/Fogueira.jpeg');
+    width: 300px;
+    height: 620px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
+}
+#img-4{
+    background-image: url('imgs/MiguelPintado.jpeg');
+    width: 600px;
+    height: 300px;
+    background-position: center;
+    background-size: cover; 
+}
+#img-5{
+    background-image: url('imgs/FotoMeninos.jpeg');
+    width: 450px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+#img-6{
+    background-image: url('imgs/Jogos.jpeg');
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin-left: 30px;
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+#img-7{
+    background-image: url('imgs/MeninasLouvando.jpeg');
+    width: 600px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+
+
+
