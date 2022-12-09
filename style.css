@@ -184,6 +184,11 @@ body{
     padding-top: 15px;
 }
 
+.contato a{
+    text-decoration: none;
+    color: #0b0c0e;
+}
+
 .contato li:nth-child(1) i{
     color:  #52e026;
 }
