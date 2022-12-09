@@ -345,8 +345,21 @@ footer{
     }
 }
 
-/*@media screen and (min-width: 641px) and (max-width: 1007px){
+@media screen and (min-width: 641px) and (max-width: 1024px){
     
+    #img-3{
+        width: 0;
+        height: 0;
+    }
 
+    #img-6{
+        width: 380px;
+        height: 300px;
+    }
 
-}*/
+    #img-7{
+        width: 530px;
+        height: 300px;
+        margin-top: 20px;
+    }
+}
