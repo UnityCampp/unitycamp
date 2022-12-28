@@ -155,6 +155,38 @@ body{
     height: 300px;
 }
 
+.voluntario{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.voluntario h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #1f1f1f;
+}
+
+.voluntario p{
+    font-size: 20px;
+}
+
+.voluntario a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px;
+    background-color: #0B1726;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition: .5s;
+}
+
+.voluntario a:hover{
+    background-color: #122131;
+}
+
 .contato{
     background-color: #e3dcd5;
     padding: 5em 0;
